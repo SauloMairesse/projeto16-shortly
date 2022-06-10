@@ -1,9 +1,9 @@
 import { Router } from "express";
-import { postRegister, postLogin } from "../controllers/accountRouter";
+import { postRegister, postLogin } from "../controllers/accountController.js";
 
 const accountRouter = Router();
 
-categoryRouter.get("/login", postLogin);
-categoryRouter.post("/register", postRegister);
+accountRouter.post("/login", postLogin);
+accountRouter.post("/register", postRegister);
 
 export default accountRouter;

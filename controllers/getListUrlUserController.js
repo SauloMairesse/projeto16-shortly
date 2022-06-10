@@ -1,6 +1,6 @@
 import db from "../config/db.js"
 
-export async function postURL(req, res) {
+export async function getUserURLS(req, res) {
   try {
     const result = await db.query(`
       SELECT * FROM categories
