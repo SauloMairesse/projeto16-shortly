@@ -7,6 +7,6 @@ const router = Router();
 
 router.use(accountRouter); // create/read
 router.use(getUserURLSRouter);
-router.use(getURLRouter);
+// router.use(getURLRouter);
 
 export default router;

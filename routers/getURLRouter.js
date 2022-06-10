@@ -3,6 +3,6 @@ import { getURL } from "../controllers/getURL.js";
 
 const getURLRouter = Router();
 
-postUrlRouter.get("/getURL", getURL);
+getURLRouter.get("/getURL", getURL);
 
 export default getURLRouter;
